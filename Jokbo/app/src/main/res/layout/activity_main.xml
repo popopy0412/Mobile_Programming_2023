@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TableRow>
+                <TextView
+                    android:text="이        름 "
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <EditText
+                    android:id="@+id/name"
+                    android:ems="10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:text="회  사  명 "
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <EditText
+                    android:id="@+id/company"
+                    android:ems="10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:text="전화번호 "
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <EditText
+                    android:id="@+id/telnumber"
+                    android:ems="10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </TableRow>
+
+        </TableLayout>
+        <Button
+            android:id="@+id/registerBtn"
+            android:text="등록"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>
