@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">IntentFilter</string>
+    <string name="permdiscription">앱 리스트 접근</string>
+</resources>

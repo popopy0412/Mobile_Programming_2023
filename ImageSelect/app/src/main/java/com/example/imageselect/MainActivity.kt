@@ -17,7 +17,6 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
         init2()
         //init()
-
     }
     fun init2(){
         binding.radioGroup.setOnCheckedChangeListener {
