@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Service</string>
+    <string-array name="songlist">
+        <item>song1</item>
+        <item>song2</item>
+        <item>song3</item>
+        <item>song4</item>
+    </string-array>
+</resources>
