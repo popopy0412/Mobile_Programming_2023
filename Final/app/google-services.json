@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "319933155035",
+    "firebase_url": "https://myfbdb-62a25-default-rtdb.firebaseio.com",
+    "project_id": "myfbdb-62a25",
+    "storage_bucket": "myfbdb-62a25.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:319933155035:android:bb0b3a7e694ad26a5e6efe",
+        "android_client_info": {
+          "package_name": "com.example.bobfairy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "319933155035-jld8ahutqj8nokv3sg4smmq6vaf9porr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-3kKJ6xialkuU1L50hbr-6iNeeG_XmDc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "319933155035-jld8ahutqj8nokv3sg4smmq6vaf9porr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

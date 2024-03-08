@@ -55,7 +55,7 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    fun permissionCheckAlertDialog(){
+    fun permissionCheckAlertDialog() {
         val builder = AlertDialog.Builder(this)
         builder.setMessage("반드시 CALL_PHONE과 CAMERA 권한이 모두 허용되어야 합니다.").setTitle("권한 체크").setPositiveButton("OK"){
                 _, _ ->

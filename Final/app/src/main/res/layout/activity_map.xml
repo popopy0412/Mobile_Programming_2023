@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MapActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/yellow_500"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:id="@+id/prev"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:padding="0dp"
+            android:text="←"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="지도"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            />
+
+    </LinearLayout>
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <Button
+        android:id="@+id/viewBtn"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="10dp"
+        android:text="해당 범위 식당 보기"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+    <Button
+        android:id="@+id/locationBtn"
+        android:layout_width="60dp"
+        android:layout_height="65dp"
+        android:layout_marginRight="10dp"
+        android:text="◎"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@id/viewBtn"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+    <Button
+        android:id="@+id/rangeBtn"
+        android:layout_width="60dp"
+        android:layout_height="65dp"
+        android:layout_marginRight="10dp"
+        android:textSize="10sp"
+        android:text="300m"
+        android:padding="0dp"
+        app:layout_constraintBottom_toTopOf="@id/locationBtn"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
